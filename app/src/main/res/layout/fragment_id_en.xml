@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.adiputrasinaga.indonesiandictionary.Fragment.IdEnFragment"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:focusableInTouchMode="true"
+    android:id="@+id/root_layout_indo">
+
+    <android.support.v7.widget.SearchView
+        android:id="@+id/search_word_indonesia_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        app:queryHint="@string/indonesia_english"
+        android:elevation="2dp"
+        android:background="@android:color/white"
+        app:iconifiedByDefault="false"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_indonesia_english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

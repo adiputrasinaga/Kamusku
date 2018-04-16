@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Indonesian Dictionary</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Setting</string>
+    <string name="english_indonesia">English to Indonesia</string>
+    <string name="indonesia_english">Indonesia to English</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">blank fragment</string>
+
+    <string name="app_first_run">Run First</string>
+    <string name="details">Detail</string>
+
+    <string name="explanation">Meaning</string>
+</resources>
